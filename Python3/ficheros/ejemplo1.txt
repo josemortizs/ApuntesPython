@@ -1,0 +1,2 @@
+Este es un fichero de ejemplo,
+para que sea leído desde Python.
