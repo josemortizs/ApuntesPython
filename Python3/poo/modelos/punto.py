@@ -1,3 +1,5 @@
+# Clase Punto
+
 import math
 
 class Punto():
