@@ -19,11 +19,14 @@ class Circulo():
     @radio.deleter
     def radio(self: int):
         del self._radio
+        
+    # Reescribimos el método __str__ 
+    def __str__(self : object) -> str :
+        clase = type(self).__name__
+        mensaje = "Clase: {0}, su radio es {1}"
+        return mensaje.format(clase, self.radio)
 
 
 
 c = Circulo(5)
-print(c.radio)
-
-c1 : Circulo = Circulo(6)
-print(c1.radio)
+print(c)
