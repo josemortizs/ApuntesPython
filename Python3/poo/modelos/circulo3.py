@@ -21,7 +21,7 @@ class Circulo():
         del self._radio
         
     # Reescribimos el método __str__ 
-    def __str__(self : object) -> str :
+    def __str__(self : object):
         clase = type(self).__name__
         mensaje = "Clase: {0}, su radio es {1}"
         return mensaje.format(clase, self.radio)
@@ -31,3 +31,8 @@ class Circulo():
         return self.radio == otro.radio
     
 
+
+c1 = Circulo(5)
+c2 = Circulo(2)
+
+print(c1==c2) # Puedo usarlo, siendo objetos, porque hemos sobrescrito el método equal (__eq__)
