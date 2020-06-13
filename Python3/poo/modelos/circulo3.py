@@ -25,8 +25,9 @@ class Circulo():
         clase = type(self).__name__
         mensaje = "Clase: {0}, su radio es {1}"
         return mensaje.format(clase, self.radio)
+    
+    # Reescribimos el método equal para poder usarlo con nuestra clase
+    def __eq__(self, otro):
+        return self.radio == otro.radio
+    
 
-
-
-c = Circulo(5)
-print(c)
