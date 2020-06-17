@@ -1,0 +1,8 @@
+Instalación de la librería requests:
+   
+   pip install requests
+
+Revisar si se ha instalado correctamente: 
+
+    pip list
+
