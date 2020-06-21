@@ -1,0 +1,14 @@
+Instalar LXML: pip install lxml
+# ----------------------------- #
+
+Se puede almacenar el resultado de un script en un fichero HTMl, por ejemplo:
+
+python3 libRequests.py pepe > pepe.html 
+
+Crearía un documento HTMl con la info devuelta por el script.
+
+Se puede almacenar el resultado de un script en un fichero JSON, por ejemplo: 
+
+python3 libRequestsJSON.py > myrespos.json 
+
+Esta última línea crearía un documento json con la info devuelta por el script.

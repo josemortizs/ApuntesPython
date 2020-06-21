@@ -1,0 +1,173 @@
+#+TITLE: Statistics in Python
+#+AUTHOR: David Arroyo Menéndez
+#+OPTIONS: H:2 toc:nil num:t
+#+OPTIONS: tex:t
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Madrid
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+
+* Summary
+** Statistics: Summary
++ Descriptives
++ Manipulating Data
++ Matplotlib
++ Distributions
++ Statistics Tests
++ Logistic Regression
++ Principal Component Analysis
+
+** Descriptives
+*** Source! 							    :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 scipy-descriptives.py
+#+END_SRC
+
+** Manipulating Data
+Pandas is for dataframes
+#+BEGIN_SRC bash
+    $ python3 pandas/pandas-10min.py
+    $ python3 pandas/creating-dataframe.py
+    $ python3 pandas/creating-dataframa-from-arrays.py
+    $ python3 pandas/manipulating-data.py
+    $ python3 pandas/remove-rows-with-nan.py
+    $ python3 pandas/handle-missing-data.py
+    $ python3 pandas/data-analysis/pd-diabetes.py
+#+END_SRC
+Numpy is algebra is for arrays
+#+BEGIN_SRC bash
+    $ python3 numpy/reject-outliers.py
+#+END_SRC
+
+** Matplotlib
+
+You can display statistics with matplotlib
+
+#+BEGIN_SRC bash
+$ python3 barchart_demo.py
+$ python3 boxplot-example2.py
+$ python3 boxplot-example.py
+$ python3 colorbar_basics.py
+$ python3 image_demo.py
+$ python3 pie_features.py
+$ python3 plot_3D.py
+$ gimp surface3d_frontpage.png &
+$ python3 pyplot_text.py
+$ python3 scatter-example.py
+$ python3 stackplot_demo.py
+$ python3 subplot.py
+$ python3 unicode_minus.py
+#+END_SRC
+** Matplotlib. What would you like to show?
+
+file:img/charts.png
+
+** Distibutions in Statistics
+
+An histogram trends to be a continuos line in a table, we can draw a
+distribution with this trend.
+
+#+BEGIN_SRC bash
+$ python3 bernoulli.py
+$ python3 plot_normal.py
+$ python3 poisson.py
+$ python3 binomial.py
+$ python3 exponential-distribution.py
+#+END_SRC
+** Distributions in Statistics (II)
+
+file:img/distribution.png
+
+** Distributions in Statistics (III)
+
+file:img/distributions_choice.png
+
+** Bernoulli Distribution
+
+file:img/bernoulli-distribution.png
+
+** Normal Distribution
+
+file:img/normal-distribution.png
+
+** Poisson Distribution
+
+file:img/poisson.png
+
+** Binomial Distribution
+
+file:img/binomial.png
+
+** Exponential Distribution
+
+file:img/exponential-distribution.png
+
+** Moments in a Distribution
+
+file:img/moments.png
+
+** Statistics Tests / Choice Models
+To see a result from a hipothesis you can use tests:
+#+BEGIN_SRC bash
+$ python scipy-special-tests.py
+$ python discrete-choice-models.py
+$ python pearson.py # for testing non-correlation
+$ python fisher.py
+#+END_SRC
+
+** Multivariate Analisis. Choosing a model (I)
+
+file:img/variables.png
+
+** Multivariate Analisis. Choosing a model (II)
+
+file:img/variables2.png
+
+** Multivariate Analisis. Choosing a model (II)
+
+** Logistic Regression
+*** Scikit is your friend 					    :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 scikit/logistic-regression/logistic-function.py
+    $ python3 scikit/logistic-regression/data-using-pandas.py
+#+END_SRC
+
+** Principal Component Analysis
+*** Scikit is your friend 					    :B_block:
+    :PROPERTIES:
+    :BEAMER_COL: 0.98
+    :BEAMER_ENV: block
+    :END:
+#+BEGIN_SRC bash
+    $ python3 scikit/pca-choosing-components.py --csv="scikit/features_list.csv"
+    $ python3 scikit/pca-features.py
+#+END_SRC
+
+** Montecarlo Statistics Methods
+
+It's a statistic game where the players is betting.
+
+#+BEGIN_SRC bash
+$ python3 statistics/montecarlo/bettor.py
+$ python3 statistics/montecarlo/doublebettor.py
+$ python3 statistics/montecarlo/bettor-statistics.py
+$ python3 statistics/montecarlo/dalambert.py
+#+END_SRC
+
+** License
+Copyright (C) 2019 David Arroyo Menendez
+    Permission is granted to copy, distribute and/or modify this document
+    under the terms of the GNU Free Documentation License, Version 1.3
+    or any later version published by the Free Software Foundation;
+    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+    A copy of the license is included in [[https://www.gnu.org/copyleft/fdl.html][GNU Free Documentation License]].
+
+[[https://www.gnu.org/copyleft/fdl.html][file:https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/GFDL_Logo.svg/200px-GFDL_Logo.svg.png]]
