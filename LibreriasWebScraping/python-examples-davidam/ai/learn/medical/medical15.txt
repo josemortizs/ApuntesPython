@@ -1,5 +1,0 @@
-
-Doctor:  Does it hurt when you do this?
-Patient: Yes.
-Doctor:  Well, don't do that.
-

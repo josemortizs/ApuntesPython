@@ -1,9 +1,0 @@
-
-Not precisely pure-math, but ...
-
-Fuller's Law of Cosmic Irreversability:
-
-                1 pot T --> 1 pot P
-but
-                1 pot P -/-> 1 pot T
-
